@@ -31,7 +31,7 @@ function logResponse(req, res, next) {
 }
 
 app.use(logResponse);
-app.use(express.static(path.join(__dirname, "astatic")));
+app.use(express.static(path.join(__dirname, "bstatic")));
 
 app.listen(
     PORT,
